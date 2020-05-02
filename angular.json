@@ -122,8 +122,13 @@
               "devServerTarget": "thckwarter-github-pages:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "thckwarter-github-pages"
 }
